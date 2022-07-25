@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Playlist Maker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+  <!--   <link href="style.css" rel="stylesheet" type="text/css" /> -->
+</head>
+
+<body style="background-image:url('https://c4.wallpaperflare.com/wallpaper/295/56/864/minimalism-music-simple-background-vinyl-wallpaper-preview.jpg');
+      background-size: cover; height:480px; padding-top:80px;">
+  <header >
+    <nav>
+      <h1>Playlist Maker</h1> 
+      <input type="search" id="searchBar" name="q" placeholder="search...">       <button onclick="searchArtist()">Search</button>
+    </nav>
+  </header>
+  <main>
+    <section >
+      <h2 class="htext">Featured Artists</h2>
+      <div id="featuredArtists"></div>
+    </section>
+    <section id="songs">
+      <section>
+        <h2 class="htext">Top 10 Artist Tracks</h2>
+        <div id="trackListing"></div>
+      </section>
+      <section >
+        <h2 class="htext">User Playlist</h2>
+        <div id="Playlist"></div>
+      </section>
+    </section>
+  </main>
+  
+
+  <script src="script.js"></script>
+</body>
+
+</html>
